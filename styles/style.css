@@ -1,0 +1,181 @@
+/* TOP SECTION START */
+#topSection {
+	display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+#sectionSeparator{
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#sectionSeparator {
+	display: flex;
+}
+
+#topText{
+	font-size: 5.83rem;
+}
+
+#topText h1{ 
+	color: var(--text-title-color);
+	font-weight: bold;
+}
+
+#topText p{
+	color: var(--text-color);
+	font-size: 3.2rem;
+	font-weight: 600;
+}
+
+.buttonTopSection{
+ 	margin: 18rem 0rem 13.6rem;
+}
+/* TOP SECTION END */
+
+
+/* MIDDLE SECTION START */
+#middleSection {
+	padding: 6.4rem 11rem;
+	background-image: linear-gradient(to bottom right, rgba(52, 49, 147, 1), rgba(48, 44, 99, 1));
+}
+
+#moonCards{
+	display: flex;
+	gap: 6rem;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4rem;
+
+	background-color: white;
+	border-radius: 2.5rem;
+	padding: 3.2rem;
+}
+
+.moonText {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+}
+
+.moonText h1 {
+	color: var(--text-title-color);
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.moonText p {
+	color: var(--text-color);
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+/* MIDDLE SECTION END */
+
+
+/* BOTTOM SECTION START */
+
+.bottomSection {
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	display: flex;
+    flex-direction: row;
+}
+
+.formContent {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.formContent h1{
+	font-size: 4.2rem;
+	color: var(--text-title-color);
+	font-weight: 700;
+}
+
+.formEmail {
+	margin: 2.4rem 0rem 2.4rem 0rem;
+}
+
+#inputName {
+	border: .1rem solid #312D64;
+	border-radius: .6rem;
+	width: 59.2rem;
+	height: 4.8rem;
+	background-image: url(../src/Vector.svg);
+	background-position: 1.2rem 1.4rem;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+
+#inputEmail{
+	border: .1rem solid #312D64;
+	border-radius: .6rem;
+	width: 59.2rem;
+	height: 4.8rem;
+	background-image: url(../src/Vector-1.svg);
+	background-position: 1.2rem 1.5rem;
+	background-repeat: no-repeat;
+	padding-left: 40px;	
+}
+
+::placeholder {
+	color: var(--text-color);
+	font-weight: 400;
+}
+
+textarea {
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid #312D64;
+	border-radius: 4px;
+	background-color: #fff;
+	resize: none;
+}
+
+textarea::placeholder {
+	color: var(--text-color);
+}
+
+#formButton {
+	color: #fff;
+	background-image: linear-gradient(to bottom right, rgba(52, 49, 147, 1), rgba(48, 44, 99, 1));	
+	width: 15rem;
+	border-radius: 1.6rem;
+	padding: 1.5rem;
+}
+/* END BOTTOM SECTION */
+
+
+footer {
+	background-image: linear-gradient(to bottom right, rgba(52, 49, 147, 1), rgba(48, 44, 99, 1));
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	padding: 1.6rem;
+	font-size: 1.8rem;
+}
+
+@media (width: 430px) {
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#astronautSvg {
+		width: 50%;
+	}
+}
+
